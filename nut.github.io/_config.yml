@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: yuxiaobei
-subtitle:
-description:
+title: 于小北
+subtitle: 历经沧桑终不改 洗尽铅华呈素姿
+description: Every Day A Little
 author: yuxiaobei
 language: zh-Hans
 timezone:
@@ -80,3 +80,9 @@ deploy:
   type: git
   repo: git@github.com:nutguo/nutguo.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
